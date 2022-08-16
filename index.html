@@ -29,6 +29,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <title>Aziz Colorist</title>
+    <link rel="icon" type="image/x-icon" href="/photos/Aziz - logo1-05.png" />
   </head>
   <body>
     <div class="container" id="home">
@@ -156,22 +158,49 @@
     <section id="contact" class="contact-back">
       <div class="container contact-back py-5">
         <h1 class="contact-heading py-3">CONTACT ME</h1>
-        <form class="row">
+        <form
+          class="row"
+          action="https://formsubmit.co/azizcolorist@email.com"
+          method="POST"
+        >
           <div class="col-md-6 py-2">
             <label for="firstName" class="class-label">First Name</label>
-            <input type="text" class="form-control" id="firstName" required />
+            <input
+              type="text"
+              name="First Name"
+              class="form-control"
+              id="firstName"
+              required
+            />
           </div>
           <div class="col-md-6 py-2">
             <label for="lastName" class="class-label">Last Name</label>
-            <input type="text" class="form-control" id="lastName" required />
+            <input
+              type="text"
+              name="Last Name"
+              class="form-control"
+              id="lastName"
+              required
+            />
           </div>
           <div class="col-md-8 py-2">
             <label for="emailInfo" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="emailInfo" required />
+            <input
+              type="email"
+              name="E-mail"
+              class="form-control"
+              id="emailInfo"
+              required
+            />
           </div>
           <div class="col-md-4 py-2">
             <label for="phoneNumber" class="form-label">Phone Number</label>
-            <input type="number" class="form-control" id="phoneNumber" />
+            <input
+              type="number"
+              name="Phone Number"
+              class="form-control"
+              id="phoneNumber"
+            />
           </div>
           <div class="col-md-12 py-2">
             <label for="comments" class="form-label"
