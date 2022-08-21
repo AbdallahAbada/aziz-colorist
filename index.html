@@ -158,28 +158,14 @@
     <section id="contact" class="contact-back">
       <div class="container contact-back py-5">
         <h1 class="contact-heading py-3">CONTACT ME</h1>
-        <form
-          class="row"
-          action="https://formsubmit.co/azizcolorist@email.com"
-          method="POST"
-        >
-          <div class="col-md-6 py-2">
-            <label for="firstName" class="class-label">First Name</label>
+        <form class="row" action="contact.php" method="POST">
+          <div class="col-md-12 py-2">
+            <label for="firstName" class="class-label">Full Name</label>
             <input
               type="text"
-              name="First Name"
+              name="name"
               class="form-control"
-              id="firstName"
-              required
-            />
-          </div>
-          <div class="col-md-6 py-2">
-            <label for="lastName" class="class-label">Last Name</label>
-            <input
-              type="text"
-              name="Last Name"
-              class="form-control"
-              id="lastName"
+              id="name"
               required
             />
           </div>
@@ -187,7 +173,7 @@
             <label for="emailInfo" class="form-label">E-mail</label>
             <input
               type="email"
-              name="E-mail"
+              name="email"
               class="form-control"
               id="emailInfo"
               required
@@ -197,7 +183,7 @@
             <label for="phoneNumber" class="form-label">Phone Number</label>
             <input
               type="number"
-              name="Phone Number"
+              name="phone"
               class="form-control"
               id="phoneNumber"
             />
@@ -207,6 +193,7 @@
               >Comments, Questions?</label
             >
             <textarea
+              name="comments"
               type="text"
               class="form-control"
               id="comments"
