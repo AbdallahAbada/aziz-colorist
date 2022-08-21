@@ -246,7 +246,7 @@ body {
 }
 
 .para {
-  padding: 4% 0;
+  padding: 4% 0%;
 }
 
 /* CONTACT */
@@ -369,8 +369,36 @@ body {
 }
 
 @media (max-width: 767px) {
+  #stills {
+    width: 100%;
+    padding: 13% 0;
+  }
+
   .still {
     width: 600px;
-    height: 370px;
+    height: 270px;
+  }
+
+  .still-1 {
+    background-image: url(new-stills/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: top;
+  }
+
+  .still-11 {
+    background-image: url(new-stills/11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+  .still-12 {
+    background-image: url(new-stills/12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
