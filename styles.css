@@ -152,7 +152,7 @@ body {
 }
 
 #about {
-  padding: 3% 10%;
+  padding: 3% 7%;
   /* text-align: left; */
   color: #f1e1cd;
 }
@@ -354,7 +354,7 @@ body {
 
   .img-aziz {
     height: 500px;
-    width: 290px;
+    width: 280px;
     text-align: center;
     padding: 70px 0px;
     margin: auto;
