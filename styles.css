@@ -135,7 +135,7 @@ body {
 }
 
 .video-content {
-  padding: 1% 9%;
+  padding: 8% 9%;
 }
 
 .showreel-button {
@@ -148,6 +148,7 @@ body {
   font-size: 25px;
   text-align: center;
   cursor: pointer;
+  margin-bottom: 3%;
 }
 
 #about {
@@ -321,6 +322,17 @@ body {
     width: 100%;
   }
 
+  #Showreel {
+    padding: 1% 0% 3%;
+    text-align: center;
+    color: #f1e1cd;
+  }
+
+  .video {
+    padding: 0% 0%;
+    height: 600px;
+  }
+
   #about {
     text-align: center;
   }
@@ -342,7 +354,7 @@ body {
 
   .img-aziz {
     height: 500px;
-    width: 350px;
+    width: 290px;
     text-align: center;
     padding: 70px 0px;
     margin: auto;
