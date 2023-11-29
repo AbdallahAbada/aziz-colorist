@@ -215,7 +215,7 @@ body {
 .img-aziz {
   width: 400px;
   height: 600px;
-  background-image: url(/photos/aziz-elgarf.jpg);
+  background-image: url(photos/aziz-elgarf.jpg);
   background-size: cover;
   background-position: bottom;
   /* border-radius: 100%; */
