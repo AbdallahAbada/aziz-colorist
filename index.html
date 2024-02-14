@@ -7,6 +7,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+      Aziz Elgarf - Cinematic Video Colorist.
+    </title>
+    <meta name="description" content=" I can do everything from simple color correction to color grading and mastering the look. You name it, I'll make it happen. Let's get started!" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -33,6 +38,7 @@
     <link rel="icon" type="image/x-icon" href="./photos/Aziz - logo1-05.png" />
   </head>
   <body>
+    <!-- Navbar -->
     <div class="container" id="home">
       <nav id="" class="navbar fixed-top navbar-expand-md navbar-dark">
         <!-- <div id="txt">
@@ -75,7 +81,7 @@
         </div>
       </nav>
     </div>
-
+    <!-- Hero Section -->
     <section id="stills" class="still-wrap">
       <div class="container-fluid">
         <div class="row">
@@ -94,7 +100,7 @@
         </div>
       </div>
     </section>
-
+    <!-- How Showreel -->
     <section id="Showreel" class="show-wrap">
       <img class="show-bg" src="/new-stills/9 copy.png" alt="" />
       <div class="container">
@@ -136,7 +142,7 @@
         </button> -->
       </div>
     </section>
-
+    <!-- About Section -->
     <section id="about" class="demo-wrap">
       <img class="demo-bg" src="/new-stills/11 copy.png" alt="" />
       <div class="container demo-content">
@@ -165,10 +171,25 @@
         </div>
       </div>
     </section>
+    <!-- Contact Form -->
     <section id="contact" class="contact-back">
       <div class="container contact-back py-5">
         <h1 class="contact-heading py-3">CONTACT US</h1>
-        <form class="row" action="contact.php" method="POST">
+        <div id="success-message-container">
+          <div
+            id="success-message"
+            style="
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              padding: 5px 8px;
+              background-color: #6c0000;
+              color: #f1e1cd;
+              display: none;
+              font-size: large;
+            "
+          ></div>
+        <form id="contact-form" class="row" action="contact.php" method="POST">
           <div class="col-md-12 py-2">
             <label for="firstName" class="class-label">Full Name</label>
             <input
@@ -203,7 +224,7 @@
               >Comments, Questions?</label
             >
             <textarea
-              name="comments"
+              name="message"
               type="text"
               class="form-control"
               id="comments"
@@ -215,8 +236,10 @@
             <button type="submit" class="form-btn">Submit</button>
           </div>
         </form>
+        <div id="success-message"></div>
       </div>
     </section>
+    <!-- Footer -->
     <footer id="follow">
       <div class="container">
         <div class="row">
@@ -249,13 +272,11 @@
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
